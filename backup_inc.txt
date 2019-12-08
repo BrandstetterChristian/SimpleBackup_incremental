@@ -1,0 +1,30 @@
+simple backup:
+
+c# backup: save error log same as template xml file
+------------------
+
+
+
+full / incremental / differntial -> 3 classes per create/restore
+save latest backups in template
+
+display copy percentage less frequently
+
+---
+
+optional:
+- name input when creating
+- save notes at backup: textbox -> if not empty -> info.txt
+
+BrowseFileOrFolder (copying single files)
+seems to be wrong
+alternative: 2 buttons folders/files
+
+restoring of incremental backup:
+save previous full backup path and date, restore oldest to newest
+
+template:
+GetFilterForDirectory
+
+try excluding empty folders / deleting them after backup
+
